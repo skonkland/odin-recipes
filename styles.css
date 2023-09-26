@@ -1,0 +1,25 @@
+body {
+  font-family: Papyrus, Arial;
+  background-color: rgb(255, 172, 172);
+  margin: 50px;
+}
+
+#veganBowl {
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+img {
+  border: rgb(0, 99, 3) 10px solid;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+li {
+  font-size: 20px;
+}
