@@ -1,5 +1,5 @@
 body {
-  font-family: Papyrus, Arial;
+  font-family: Papyrus, Arial, sans-serif;
   background-color: rgb(255, 172, 172);
   margin: 50px;
 }
@@ -18,8 +18,34 @@ img {
 h1 {
   font-size: 50px;
   font-weight: 800;
+  text-decoration: underline;
 }
 
 li {
   font-size: 20px;
+}
+
+.recipes {
+  padding: 0;
+}
+
+.recipes li {
+  display: inline-block;
+  border: 5px solid #21642d;
+  margin-right: 15px;
+  background-color: tan;
+}
+
+.recipes li :hover {
+  background-color: rgb(166, 0, 255);
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+}
+
+.recipe-link {
+  padding: 8px;
+  display: inline-block;
+  border: 5px solid rebeccapurple;
+  margin: -5px;
 }
